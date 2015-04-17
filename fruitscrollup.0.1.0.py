@@ -25,7 +25,7 @@ from ConfigParser import SafeConfigParser
 random.seed()
 
 parser = SafeConfigParser()
-parser.read('scrolling_image.ini')
+parser.read('fruitscrollup.ini')
 NeedNewImage, EVT_NEED_NEW_IMAGE = wx.lib.newevent.NewEvent()
 
 class imageWindow(wx.Window):
